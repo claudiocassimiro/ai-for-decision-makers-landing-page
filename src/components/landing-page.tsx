@@ -119,7 +119,9 @@ export function LandingPage() {
                   asChild
                   className="bg-transparent text-white border-white hover:bg-white hover:text-black transition-colors"
                 >
-                  <Link href="#">Saiba Mais</Link>
+                  <Link href="https://wa.me/5581993520671" target="_blank">
+                    Saiba Mais
+                  </Link>
                 </Button>
               </div>
             </div>
@@ -247,7 +249,12 @@ export function LandingPage() {
                 asChild
                 className="bg-primary text-primary-foreground hover:bg-primary/90 transition-colors"
               >
-                <Link href="#">Inscreva-se Agora</Link>
+                <Link
+                  href="https://forms.gle/imQszctV25tk7Dn1A"
+                  target="_blank"
+                >
+                  Inscreva-se Agora
+                </Link>
               </Button>
             </div>
           </div>
